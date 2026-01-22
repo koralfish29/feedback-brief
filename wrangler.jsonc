@@ -1,0 +1,16 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "feedback-analyzer",
+	"main": "src/index.ts",
+	"compatibility_date": "2025-09-27",
+	"observability": {
+		"enabled": true
+	},
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_name": "feedback_db",
+			"database_id": "9c25069a-6ad7-4c60-bdb8-5d4c67c1120f"
+		}
+	]
+}

@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS feedback (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  source TEXT NOT NULL,
+  content TEXT NOT NULL,
+  sentiment TEXT,
+  category TEXT,
+  urgency TEXT,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
