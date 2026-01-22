@@ -17,7 +17,7 @@ The project focuses on turning noisy, unstructured feedback into structured sign
 
 ## Built With
 
-- **:contentReference[oaicite:0]{index=0} Workers** — serverless runtime for API logic and dashboard rendering  
+- **Workers** — serverless runtime for API logic and dashboard rendering  
 - **D1 Database** — persistent SQL storage for feedback and analytics  
 - **Wrangler CLI** — local development, database management, and deployment  
 
